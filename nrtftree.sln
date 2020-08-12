@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nrtftree-library", "nrtftree-library\nrtftree-library.csproj", "{7114E863-9D7D-4507-B38B-B859A0C1B836}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nrtftree-test", "nrtftree-test\nrtftree-test.csproj", "{932E07AC-75B1-4F13-8998-3CA4EAEE8E79}"
@@ -9,7 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-demo", "nrtftree-exa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nrtftree-examples", "nrtftree-examples", "{A199A5CB-BF3B-4223-98F2-D35739015480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libNetRtfTree", "libNetRtfTree\libNetRtfTree.csproj", "{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "libNetRtfTreeImplementation", "libNetRtfTreeImplementation\libNetRtfTreeImplementation.shproj", "{106E69D3-F661-42F2-BEF3-B7FD89550B3D}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		libNetRtfTreeImplementation\libNetRtfTreeImplementation.projitems*{106e69d3-f661-42f2-bef3-b7fd89550b3d}*SharedItemsImports = 13
+		libNetRtfTreeImplementation\libNetRtfTreeImplementation.projitems*{6de6198d-fd0d-4181-a2c9-9c84bf850e41}*SharedItemsImports = 5
+		libNetRtfTreeImplementation\libNetRtfTreeImplementation.projitems*{7114e863-9d7d-4507-b38b-b859a0c1b836}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -49,11 +60,26 @@ Global
 		{F6B17017-FC6F-4992-8411-DB42CD80D881}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F6B17017-FC6F-4992-8411-DB42CD80D881}.Release|x86.ActiveCfg = Release|x86
 		{F6B17017-FC6F-4992-8411-DB42CD80D881}.Release|x86.Build.0 = Release|x86
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Debug|x86.Build.0 = Debug|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|x86.ActiveCfg = Release|Any CPU
+		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F6B17017-FC6F-4992-8411-DB42CD80D881} = {A199A5CB-BF3B-4223-98F2-D35739015480}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {255771E4-8A98-4825-9B00-E722B1A6AB37}
 	EndGlobalSection
 EndGlobal

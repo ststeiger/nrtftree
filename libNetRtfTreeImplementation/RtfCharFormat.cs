@@ -28,7 +28,7 @@
 
 using System.Drawing;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {

@@ -33,10 +33,10 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using Net.Sgoliver.NRtfTree.Core;
-using Net.Sgoliver.NRtfTree.Util;
+using libNetRtfTree.Core;
+using libNetRtfTree.Util;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Demo
     {

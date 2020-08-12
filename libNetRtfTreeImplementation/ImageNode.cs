@@ -27,19 +27,19 @@
  * ******************************************************************************/
 
 using System.Text;
-using Net.Sgoliver.NRtfTree.Core;
+using libNetRtfTree.Core;
 using System.IO;
 using System.Globalization;
 using System.Drawing;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {
         /// <summary>
         /// Encapsula un nodo RTF de tipo Imagen (Palabra clave "\pict")
         /// </summary>
-        public class ImageNode : Net.Sgoliver.NRtfTree.Core.RtfTreeNode
+        public class ImageNode : libNetRtfTree.Core.RtfTreeNode
         {
             #region Atributos privados
 

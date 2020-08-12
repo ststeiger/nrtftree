@@ -30,9 +30,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using Net.Sgoliver.NRtfTree.Core;
+using libNetRtfTree.Core;
 
-namespace Net.Sgoliver.NRtfTree.Test
+namespace libNetRtfTree.Test
 {
     [TestFixture]
     public class RtfPullParserTest

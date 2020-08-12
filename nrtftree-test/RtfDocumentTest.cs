@@ -27,14 +27,14 @@
  * ******************************************************************************/
 
 using System;
-using Net.Sgoliver.NRtfTree.Core;
-using Net.Sgoliver.NRtfTree.Util;
+using libNetRtfTree.Core;
+using libNetRtfTree.Util;
 using System.IO;
 using NUnit.Framework;
 using System.Drawing;
 using System.Globalization;
 
-namespace Net.Sgoliver.NRtfTree.Test
+namespace libNetRtfTree.Test
 {
     [TestFixture]
     public class RtfDocumentTest

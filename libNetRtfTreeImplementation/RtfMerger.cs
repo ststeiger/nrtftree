@@ -28,10 +28,10 @@
  * ******************************************************************************/
 
 using System.Collections.Generic;
-using Net.Sgoliver.NRtfTree.Util;
+using libNetRtfTree.Util;
 using System.Drawing;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Core
     {

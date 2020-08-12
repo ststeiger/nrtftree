@@ -26,7 +26,7 @@
  * Description:	Procesador abstracto utilizado por la clase RtfReader.
  * ******************************************************************************/
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Core
     {

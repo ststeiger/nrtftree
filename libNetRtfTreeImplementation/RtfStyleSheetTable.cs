@@ -29,7 +29,7 @@
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {

@@ -29,12 +29,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Net.Sgoliver.NRtfTree.Core;
-using Net.Sgoliver.NRtfTree.Util;
+using libNetRtfTree.Core;
+using libNetRtfTree.Util;
 using System.Drawing.Imaging;
 using System.IO;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Demo
     {

@@ -22,82 +22,49 @@
  * Copyright:   2006-2013 Salvador Gomez
  * Home Page:	http://www.sgoliver.net
  * GitHub:	    https://github.com/sgolivernet/nrtftree
- * Class:		RtfDocumentFormat
- * Description:	Representa un formato de documento.
+ * Class:		RtfParFormat
+ * Description:	Representa un formato de párrafo.
  * ******************************************************************************/
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {
         /// <summary>
-        /// Representa un formato de documento.
+        /// Representa un formato de párrafo.
         /// </summary>
-        public class RtfDocumentFormat
+        public class RtfParFormat
         {
-            #region Atributos Privados
+            private TextAlignment alignment = TextAlignment.Left;
+            private float leftIndentation = 0;
+            private float rightIndentation = 0;
 
             /// <summary>
-            /// Margen izquierdo (en cm.)
+            /// Alineación del párrafo.
             /// </summary>
-            private float marginl = 2;
-
-            /// <summary>
-            /// Margen derecho (en cm.)
-            /// </summary>
-            private float marginr = 2;
-
-            /// <summary>
-            /// Margen superior (en cm.)
-            /// </summary>
-            private float margint = 2;
-
-            /// <summary>
-            /// Margen inferior (en cm.)
-            /// </summary>
-            private float marginb = 2;
-
-            #endregion
-
-            #region Propiedades
-
-            /// <summary>
-            /// Margen Izquierdo en centímetros.
-            /// </summary>
-            public float MarginL
+            public TextAlignment Alignment
             {
-                get { return marginl; }
-                set { marginl = value; }
+                get { return alignment; }
+                set { alignment = value; }
             }
 
             /// <summary>
-            /// Margen Derecho en centímetros.
+            /// Sangría izquierda del párrafo.
             /// </summary>
-            public float MarginR
+            public float LeftIndentation
             {
-                get { return marginr; }
-                set { marginr = value; }
+                get { return leftIndentation; }
+                set { leftIndentation = value; }
             }
 
             /// <summary>
-            /// Margen Superior en centímetros.
+            /// Sangría derecha del párrafo.
             /// </summary>
-            public float MarginT
+            public float RightIndentation
             {
-                get { return margint; }
-                set { margint = value; }
+                get { return rightIndentation; }
+                set { rightIndentation = value; }
             }
-
-            /// <summary>
-            /// Margen Inferior en centímetros.
-            /// </summary>
-            public float MarginB
-            {
-                get { return marginb; }
-                set { marginb = value; }
-            }
-
-            #endregion
         }
     }
 }

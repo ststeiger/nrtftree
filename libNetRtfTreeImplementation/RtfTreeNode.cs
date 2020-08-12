@@ -29,7 +29,7 @@
 using System;
 using System.Text;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Core
     {

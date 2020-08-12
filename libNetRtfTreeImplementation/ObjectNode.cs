@@ -27,17 +27,17 @@
  * ******************************************************************************/
 
 using System.Text;
-using Net.Sgoliver.NRtfTree.Core;
+using libNetRtfTree.Core;
 using System.Globalization;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {
         /// <summary>
         /// Encapsula un nodo RTF de tipo Objeto (Palabra clave "\object")
         /// </summary>
-        public class ObjectNode : Net.Sgoliver.NRtfTree.Core.RtfTreeNode
+        public class ObjectNode : libNetRtfTree.Core.RtfTreeNode
         {
             #region Atributos Privados
 

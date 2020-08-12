@@ -22,39 +22,82 @@
  * Copyright:   2006-2013 Salvador Gomez
  * Home Page:	http://www.sgoliver.net
  * GitHub:	    https://github.com/sgolivernet/nrtftree
- * Class:		RtfStyleSheetType
- * Description:	Tipos de hojas de estilo de documento RTF.
+ * Class:		RtfDocumentFormat
+ * Description:	Representa un formato de documento.
  * ******************************************************************************/
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {
         /// <summary>
-        /// Tipos de hojas de estilo de un documento RTF.
+        /// Representa un formato de documento.
         /// </summary>
-        public enum RtfStyleSheetType
+        public class RtfDocumentFormat
         {
+            #region Atributos Privados
+
             /// <summary>
-            /// Hoja de estilo sin definir.
+            /// Margen izquierdo (en cm.)
             /// </summary>
-            None = 0,
+            private float marginl = 2;
+
             /// <summary>
-            /// Hoja de estilo de caracter.
+            /// Margen derecho (en cm.)
             /// </summary>
-            Character = 1,
+            private float marginr = 2;
+
             /// <summary>
-            /// Hoja de estilo de párrafo.
+            /// Margen superior (en cm.)
             /// </summary>
-            Paragraph = 2,
+            private float margint = 2;
+
             /// <summary>
-            /// Hoja de estilo de sección.
+            /// Margen inferior (en cm.)
             /// </summary>
-            Section = 3,
+            private float marginb = 2;
+
+            #endregion
+
+            #region Propiedades
+
             /// <summary>
-            /// Hoja de estilo de tabla.
+            /// Margen Izquierdo en centímetros.
             /// </summary>
-            Table = 4
+            public float MarginL
+            {
+                get { return marginl; }
+                set { marginl = value; }
+            }
+
+            /// <summary>
+            /// Margen Derecho en centímetros.
+            /// </summary>
+            public float MarginR
+            {
+                get { return marginr; }
+                set { marginr = value; }
+            }
+
+            /// <summary>
+            /// Margen Superior en centímetros.
+            /// </summary>
+            public float MarginT
+            {
+                get { return margint; }
+                set { margint = value; }
+            }
+
+            /// <summary>
+            /// Margen Inferior en centímetros.
+            /// </summary>
+            public float MarginB
+            {
+                get { return marginb; }
+                set { marginb = value; }
+            }
+
+            #endregion
         }
     }
 }

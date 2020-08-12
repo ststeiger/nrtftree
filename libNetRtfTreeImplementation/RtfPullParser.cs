@@ -28,7 +28,7 @@
 
 using System.IO;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Core
     {

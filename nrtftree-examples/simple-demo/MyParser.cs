@@ -27,10 +27,10 @@
  ********************************************************************************/
 
 using System;
-using Net.Sgoliver.NRtfTree.Core;
-using Net.Sgoliver.NRtfTree.Util;
+using libNetRtfTree.Core;
+using libNetRtfTree.Util;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Demo
     {

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>106e69d3-f661-42f2-bef3-b7fd89550b3d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>libNetRtfTreeImplementation</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ImageNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InfoGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfCharFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfColorTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfDocument.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfDocumentFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfFontTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfLex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfMerger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfNodeCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfNodeType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfParFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfPullParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfStyleSheet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfStyleSheetTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfStyleSheetType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfTokenType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RtfTreeNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SarParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextAlignment.cs" />
+  </ItemGroup>
+</Project>

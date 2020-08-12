@@ -27,11 +27,11 @@
  * ******************************************************************************/
 
 using System;
-using Net.Sgoliver.NRtfTree.Core;
+using libNetRtfTree.Core;
 using System.IO;
 using NUnit.Framework;
 
-namespace Net.Sgoliver.NRtfTree.Test
+namespace libNetRtfTree.Test
 {
     [TestFixture]
     public class NodeCollectionTest

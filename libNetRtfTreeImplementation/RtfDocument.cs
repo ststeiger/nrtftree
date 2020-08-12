@@ -31,9 +31,9 @@ using System.Text;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
-using Net.Sgoliver.NRtfTree.Core;
+using libNetRtfTree.Core;
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {

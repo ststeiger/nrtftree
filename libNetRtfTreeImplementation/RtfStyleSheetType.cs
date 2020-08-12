@@ -22,49 +22,39 @@
  * Copyright:   2006-2013 Salvador Gomez
  * Home Page:	http://www.sgoliver.net
  * GitHub:	    https://github.com/sgolivernet/nrtftree
- * Class:		RtfParFormat
- * Description:	Representa un formato de párrafo.
+ * Class:		RtfStyleSheetType
+ * Description:	Tipos de hojas de estilo de documento RTF.
  * ******************************************************************************/
 
-namespace Net.Sgoliver.NRtfTree
+namespace libNetRtfTree
 {
     namespace Util
     {
         /// <summary>
-        /// Representa un formato de párrafo.
+        /// Tipos de hojas de estilo de un documento RTF.
         /// </summary>
-        public class RtfParFormat
+        public enum RtfStyleSheetType
         {
-            private TextAlignment alignment = TextAlignment.Left;
-            private float leftIndentation = 0;
-            private float rightIndentation = 0;
-
             /// <summary>
-            /// Alineación del párrafo.
+            /// Hoja de estilo sin definir.
             /// </summary>
-            public TextAlignment Alignment
-            {
-                get { return alignment; }
-                set { alignment = value; }
-            }
-
+            None = 0,
             /// <summary>
-            /// Sangría izquierda del párrafo.
+            /// Hoja de estilo de caracter.
             /// </summary>
-            public float LeftIndentation
-            {
-                get { return leftIndentation; }
-                set { leftIndentation = value; }
-            }
-
+            Character = 1,
             /// <summary>
-            /// Sangría derecha del párrafo.
+            /// Hoja de estilo de párrafo.
             /// </summary>
-            public float RightIndentation
-            {
-                get { return rightIndentation; }
-                set { rightIndentation = value; }
-            }
+            Paragraph = 2,
+            /// <summary>
+            /// Hoja de estilo de sección.
+            /// </summary>
+            Section = 3,
+            /// <summary>
+            /// Hoja de estilo de tabla.
+            /// </summary>
+            Table = 4
         }
     }
 }
