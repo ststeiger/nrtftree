@@ -106,10 +106,26 @@ namespace libNetRtfTree
                 InitializeTree();
             }
 
-            /// <summary>
-            /// Constructor de la clase RtfDocument. Se utilizará la codificación por defecto del sistema.
-            /// </summary>
-            public RtfDocument() : this(Encoding.Default)
+            public RtfDocument(string path, Encoding enc)
+                :this(enc)
+            {
+                RtfTree tree = new RtfTree();
+                //Load and parse RTF document
+                tree.LoadRtfFile(path);
+
+                this.fontTable = tree.GetFontTable();
+                this.colorTable = tree.GetColorTable();
+                this.encoding = tree.GetEncoding();
+                
+                this.mainGroup = tree.MainGroup;
+            }
+
+
+
+                /// <summary>
+                /// Constructor de la clase RtfDocument. Se utilizará la codificación por defecto del sistema.
+                /// </summary>
+                public RtfDocument() : this(Encoding.Default)
             {
             }
 

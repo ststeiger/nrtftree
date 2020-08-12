@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libNetRtfTree", "libNetRtfT
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "libNetRtfTreeImplementation", "libNetRtfTreeImplementation\libNetRtfTreeImplementation.shproj", "{106E69D3-F661-42F2-BEF3-B7FD89550B3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRtf", "TestRtf\TestRtf.csproj", "{5CD355E7-EAAC-400F-A4A7-B8189159657C}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		libNetRtfTreeImplementation\libNetRtfTreeImplementation.projitems*{106e69d3-f661-42f2-bef3-b7fd89550b3d}*SharedItemsImports = 13
@@ -72,6 +74,18 @@ Global
 		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|x86.ActiveCfg = Release|Any CPU
 		{6DE6198D-FD0D-4181-A2C9-9C84BF850E41}.Release|x86.Build.0 = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CD355E7-EAAC-400F-A4A7-B8189159657C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
