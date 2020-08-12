@@ -6,7 +6,11 @@ using libNetRtfTree.Util;
 namespace TestRtf
 {
 
-
+    // https://stackoverflow.com/questions/43019832/auto-versioning-in-visual-studio-2017-net-core
+    // https://github.com/BalassaMarton/MSBump
+    // https://www.codeproject.com/Articles/11306/NRTFTree-A-class-library-for-RTF-processing-in-C
+    // https://www.codeproject.com/Articles/98062/RTF-Document-Constructor-Library
+    // https://github.com/sgolivernet/jrtftree
     class Program
     {
 
